@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Calculator App</title>
+</head>
+<body>
+    <h1>Javascript Calculator</h1>
+    <div id='calc'>
+        <form>
+        <input type='text' id='display' disabled>
+            <br>
+            <input type='button' value='C' id='keys' onclick='addtoScreen("c")'>
+            <input type='button' value='CE' id='keys' onclick='backspace()'>
+            <input type='button' value='Cx^2' id='keys' onclick='power()'>
+            <input type='button' value='+' id='keys' onclick='addtoScreen("+")'>
+            <br>
+            <input type='button' value='7' id='keys' onclick='addtoScreen("7")'>
+            <input type='button' value='8' id='keys' onclick='addtoScreen("8")'>
+            <input type='button' value='9' id='keys' onclick='addtoScreen("9")'>
+            <input type='button' value='-' id='keys' onclick='addtoScreen("-")'>
+            <br>
+            <input type='button' value='4' id='keys' onclick='addtoScreen("4")'>
+            <input type='button' value='5' id='keys' onclick='addtoScreen("5")'>
+            <input type='button' value='6' id='keys' onclick='addtoScreen("6")'>
+            <input type='button' value='*' id='keys' onclick='addtoScreen("*")'>
+            <br>
+            <input type='button' value='1' id='keys' onclick='addtoScreen("1")'>
+            <input type='button' value='2' id='keys' onclick='addtoScreen("2")'>
+            <input type='button' value='3' id='keys' onclick='addtoScreen("3")'>
+            <input type='button' value='/' id='keys' onclick='addtoScreen("/")'>
+            <br>
+            <input type='button' value='0' id='keys' onclick='addtoScreen("0")'>
+            <input type='button' value='.' id='keys' onclick='addtoScreen(".")'>
+            <input type='button' value='=' id='answer' onclick='answer()'>
+        </form>
+        <h3>Nayonna Purnell</h3>
+    </div>
+    <h6>Photo by Jess Watters on Unsplash</h6>
+</body>
+<script src="js/calculator.js"></script>
+</html>

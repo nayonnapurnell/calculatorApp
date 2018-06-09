@@ -1,0 +1,68 @@
+
+
+body{
+    background: url(desk.JPG) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+h1{
+  color:#800020;
+  font-weight: bold;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px black;
+}
+
+#calc{
+  background-color: #5a5a5a;
+  width: 250px;
+  height: 325px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 50px auto;
+  box-shadow: 0px 0px 3px 6px #800020;
+
+}
+
+#display{
+  margin-bottom: 20px;
+  height: 30px;
+  width: 12em;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px black;
+  text-align:right;
+  font: 20px bold;
+}
+
+#keys{
+  width: 42px;
+  height: 35px;
+  margin: 4px;
+  box-shadow: 0px 0px 2px 1px black;
+  border-radius: 2px;
+  outline: none;
+}
+
+#answer{
+  width: 95px;
+  height: 35px;
+  margin: 4px;
+  box-shadow: 0px 0px 2px 1px black;
+  border-radius: 2px;
+  outline: none;
+}
+
+h3{
+  color:#dadada;
+  font-weight: bold;
+}
+
+h6{
+  color:#800020;
+  font-weight: bold;
+}
