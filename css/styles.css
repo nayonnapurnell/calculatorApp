@@ -1,7 +1,7 @@
 
 
 body{
-    background: url(desk.JPG) no-repeat center center;
+    background: url(/desk.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -48,7 +48,7 @@ h1{
   outline: none;
 }
 
-#answer{
+#equal{
   width: 95px;
   height: 35px;
   margin: 4px;
